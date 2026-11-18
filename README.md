@@ -6,5 +6,6 @@
 
 An entry for make.fun's [Build the strongest chess engine in 4 KB of Python](https://make.fun/bounty/tiny-chess-01) bounty.
 
-`main.py` is a negamax engine with alpha-beta pruning, a capture/check quiescence search and
-node-budget iterative deepening, packed under the competition's 4,096-byte limit.
+`main.py` is a negamax engine with alpha-beta pruning, null-move pruning, history-heuristic move
+ordering, a capture/check quiescence search and node-budget iterative deepening, packed under the
+competition's 4,096-byte limit.
